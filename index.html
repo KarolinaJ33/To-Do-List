@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="pl">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/body.css">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/body.css">
-    <link rel="stylesheet" href="css/div.css">
-    <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="css/list.css">
-    <link rel="stylesheet" href="<link rel=" stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>To Do List</title>
-    <script src="js/script.js" defer></script>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap"
-        rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap"
+      rel="stylesheet">
 </head>
 
-<body>
-</body>
-<header>
+<body class="body">
+  <header>
     <h1>To Do List</h1>
-</header>
-<main>
-    <h2> Add new task</h2>
+  </header>
+  <main>
+    <section>
+    <h2>Add new task</h2>
     <form class="form js-form">
-        <input>
-        <button>Add task</button>
+      <input class="form__input js-newTask" name="tasks" placeholder="tasks to do" autofocus>
+      <button>Add task</button>
     </form>
+    <br />
     <h2>List of tasks</h2>
-</main>
-<footer>
+  </section>
+  </main>
+  <footer>
     Karolina Jasiówka To Do List Copyright©
-</footer>
+  </footer>
 </body>
 
 </html>
