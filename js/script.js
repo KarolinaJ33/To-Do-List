@@ -53,3 +53,25 @@
     
         bindEvents();
       };
+      const onFormSubmit = (event) => {
+        event.preventDefault();
+    
+        const newTaskContent = document.querySelector(".js-newTask").value.trim();
+        const newTaskInput = document.querySelector(".js-newTask");
+    
+        if (newTaskContent !== "") {
+          addNewTask(newTaskContent);
+          newTaskInput.value = "";
+        }
+        newTaskInput.focus();
+      };
+    
+      const init = () => {
+        render();
+    
+        const form = document.querySelector(".js-form");
+        form.addEventListener("submit", onFormSubmit);
+      };
+    
+      init();
+    }
