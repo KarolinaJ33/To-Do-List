@@ -5,7 +5,7 @@
     margin: 0 auto;
     word-break: break-word;
 }
-@media (max-width: 767PX) {
+@media (max-width: 767px) {
     .body { 
         margin: 3%;
     }
