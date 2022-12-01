@@ -18,15 +18,16 @@
 }
 
 .list__button {
-    color:#08d408;
+    color:#08b408;
     border-style: none;
     width: 25px;
     height: 25px;
 }
 
+
 .list__button--toggleDone {
     color: white;
-    background: #08d408;
+    background: #08b408;
 }
 
 .list__button--remove {

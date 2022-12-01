@@ -1,29 +1,46 @@
 .form {
-    
+    display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
     padding: 10px 10px;
-    display: flex;
+    
 }
 
 .form__button {
-   padding: 15px; 
-   background: #008080;
-   color: white;
-   border: none;
-   
+    padding: 15px;
+    background: #008080;
+    color: white;
+    border: none;
+
 }
 
 .form__input {
     color: #ccc9c9;
-    border-style:solid;
-    border-color:#eeecec;
+    border-style: solid;
+    border-color: #eeecec;
     border-width: 1px;
     padding: 10px;
     flex-basis: 80%;
-    margin-right: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
 }
 
 .form__button:hover {
     background: #009999;
+    
+}
+
+@media (max-width: 767px) {
+.form__flex {
+    flex-basis: 100%;
+    margin: 2%;
+}
+}
+
+@media (max-width: 1199px) {
+.form__flex {
+    flex-basis: 100%;
+    margin: 2%;
+}
 }

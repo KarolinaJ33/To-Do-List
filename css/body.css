@@ -3,4 +3,10 @@
     font-family: "Montserrat", sans-serif;
     max-width: 800px;
     margin: 0 auto;
+    word-break: break-word;
+}
+@media (max-width: 767PX) {
+    .body { 
+        margin: 3%;
+    }
 }
