@@ -1,10 +1,11 @@
 .body {
     background-color: #dbd8d84a;
-    font-family: "Montserrat", sans-serif;
     max-width: 800px;
     margin: 0 auto;
     word-break: break-word;
+    font-family: "Montserrat", sans-serif;
 }
+
 @media (max-width: 767px) {
     .body { 
         margin: 3%;
