@@ -1,0 +1,12 @@
+.section {
+    display:flex;
+    flex-direction: column;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.header {
+    border-bottom: 2px solid;
+    border-color: #dbd8d84a;
+    padding: 10px;
+}
