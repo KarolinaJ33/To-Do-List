@@ -6,14 +6,14 @@
 }
 
 .form__button {
-    padding: 15px;
+    padding: 10px;
     background: #008080;
     color: white;
     border: none;
 }
 
 .form__input {
-    color: #ccc9c9;
+    color: black;
     border-style: solid;
     border-color: #eeecec;
     border-width: 1px;
