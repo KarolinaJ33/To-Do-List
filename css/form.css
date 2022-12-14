@@ -18,7 +18,7 @@
     border-color: #eeecec;
     border-width: 1px;
     padding: 10px;
-    flex-basis: 80%;
+    flex-grow: 1;
     margin-right: 5px;
     margin-left: 5px;  
 }
