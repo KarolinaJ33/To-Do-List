@@ -6,10 +6,11 @@
 }
 
 .form__button {
-    padding: 10px;
+    padding: 5px;
     background: #008080;
     color: white;
     border: none;
+    text-align: center;
 }
 
 .form__input {
@@ -17,7 +18,7 @@
     border-style: solid;
     border-color: #eeecec;
     border-width: 1px;
-    padding: 10px;
+    padding: 5px;
     flex-grow: 1;
     margin-right: 5px;
     margin-left: 5px;  
