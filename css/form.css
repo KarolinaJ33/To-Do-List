@@ -6,11 +6,12 @@
 }
 
 .form__button {
-    padding: 5px;
+   padding: 5px;
     background: #008080;
     color: white;
     border: none;
     text-align: center;
+    margin-left: 5px;
 }
 
 .form__input {
@@ -18,10 +19,11 @@
     border-style: solid;
     border-color: #eeecec;
     border-width: 1px;
-    padding: 5px;
+    padding: 5px 10px;
     flex-grow: 1;
     margin-right: 5px;
-    margin-left: 5px;  
+    margin-left: 5px; 
+    width: 80%; 
 }
 
 .form__button:hover {
