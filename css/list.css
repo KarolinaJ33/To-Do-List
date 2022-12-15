@@ -28,9 +28,13 @@
 .list__button--toggleDone {
     color: white;
     background: #08b408;
+    text-align: center;
+    margin: 5px;
 }
 
 .list__button--remove {
     background-color: #e42b2b;
     color: white;
+    text-align: center;
+    margin: 5px;
 }
