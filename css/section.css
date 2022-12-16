@@ -1,13 +1,15 @@
 .section {
-    display:flex;
-    flex-direction: column;
+    margin: 10px 0;
     background: white;
-    margin-bottom: 10px;
+    box-shadow: 0 0 5px #d1d1d1;
 }
-
-.section__header {
-    border-bottom: 2px solid;
-    border-color: #dbd8d84a;
+.section__body{
     padding: 20px;
+}
+.section__header {
+    border-bottom: 1px solid #d1d1d1;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
     
 }

@@ -2,15 +2,7 @@
     background-color: #dbd8d84a;
     max-width: 800px;
     margin: 0 auto;
+    padding: 20px;
     word-break: break-word;
     font-family: "Montserrat", sans-serif;
-}
-.body__header {
-    padding: 20px;
-}
-
-@media (max-width: 767px) {
-    .body { 
-        margin: 3%;
-    }
 }
