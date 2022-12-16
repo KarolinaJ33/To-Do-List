@@ -5,6 +5,9 @@
     word-break: break-word;
     font-family: "Montserrat", sans-serif;
 }
+.body__header {
+    padding: 20px;
+}
 
 @media (max-width: 767px) {
     .body { 
