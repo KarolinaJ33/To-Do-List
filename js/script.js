@@ -40,6 +40,7 @@
             removeTask(index);
           });
         });
+      }
         
         const toggleDoneButtons = document.querySelectorAll(".js-done");
     
@@ -93,7 +94,7 @@
             `;
           }
 
-          document.querySelector(".js-buttons").innerHTML = renderedButtons;
+          document.querySelector(".js-tasks").innerHTML = renderedButtons;
 
         const render = () => {
           renderTasks();
