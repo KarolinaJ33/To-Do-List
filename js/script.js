@@ -49,6 +49,16 @@
           });
         });
       };
+
+      const bindButtonsEvents = () => {
+        const hiddenTaskButton = document.querySelector(".js-hideDoneTask");
+
+        if (hiddenTaskButton) {
+          hiddenTaskButton.addEventListener("click", () => {
+            hideDoneTask();
+          });
+        };
+      }
     
       const renderTasks = () => {
         let htmlString = "";
