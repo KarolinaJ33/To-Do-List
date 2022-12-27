@@ -1,0 +1,29 @@
+.button {
+    background-color: transparent;
+    color: teal;
+    margin-left: 20px;
+    border-color: transparent;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+    .button {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+.button:hover {
+    color: rgb(22, 186, 186);
+}
+
+.button:active {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.button:disabled {
+    color: #ccc
+}

@@ -1,15 +1,39 @@
 .section {
-    margin: 10px 0;
-    background: white;
-    box-shadow: 0 0 5px #d1d1d1;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgba(232, 232, 232);
+    margin-bottom: 5px;
 }
-.section__body{
+
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+    }
+}
+
+    .section__header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        border-bottom: 2px solid rgba(232, 232, 232);
+    }
+
+@media (max-width: 767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+    }
+}
+.section__title {
     padding: 20px;
-}
-.section__header {
-    border-bottom: 1px solid #d1d1d1;
+    background-color: rgba(255, 255, 255);
     margin: 0;
-    padding: 20px;
     font-size: 20px;
-    
+}
+
+.section__tasks {
+    list-style: none;
+    padding: 15px;
+    margin: 20px;
+}
+
+.section__buttons {
+    padding: 20px 40px 20px 20px;
 }
