@@ -1,7 +1,6 @@
-# To Do List
-![To Do List]()
-# Demo
-[See To Do List] (https://karolinaj33.github.io/To-Do-List/)
+# To Do List - demo
+
+![See To Do List] (https://karolinaj33.github.io/To-Do-List/)
  
 
 ![ToDoList GIF](images/videoToDoList7.gif)
