@@ -143,11 +143,3 @@
       
       };  
     
-// Z 12 POZYCJI
-      const removeTask = (taskIndex) => {
-        tasks = [
-          ...tasks.slice(0, taskIndex),
-          ...tasks.slice(taskIndex + 1)
-        ];
-        render();
-      };
