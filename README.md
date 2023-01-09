@@ -1,6 +1,8 @@
-# To Do List - demo
+# To Do List
+![ToDoList](https://github.com/KarolinaJ33/To-Do-List/blob/22a881490ef92915c00e6f7e36b35f7bd16c2596/images/toDoList.jpg)
 
-![See To Do List] (https://karolinaj33.github.io/To-Do-List/)
+# To Do List - demo
+[See To Do List](https://karolinaj33.github.io/To-Do-List/)
  
 
 ![ToDoList GIF](images/videoToDoList7.gif)
@@ -12,7 +14,6 @@ I have created a simply to do list. You can add tasks, mark as completed and rem
 - CSS
 - JavaScript
 - ES6+ features
-- Flexbox
 - BEM convention
 - GIT
 - Media queries
