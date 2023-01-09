@@ -10,10 +10,8 @@
     };
 
     const removeTask = (taskIndex) => {
-      tasks = [
-        ...tasks.slice(0, taskIndex),
-        ...tasks.slice(taskIndex + 1)
-      ];
+      const newTasks = tasks.slice(0, taskIndex).concat(tasks.slice(taskIndex + 1));
+      tasks = newTasks;
       render();
     };
 
@@ -145,3 +143,11 @@
       
       };  
     
+
+      const removeTask = (taskIndex) => {
+        tasks = [
+          ...tasks.slice(0, taskIndex),
+          ...tasks.slice(taskIndex + 1)
+        ];
+        render();
+      };
