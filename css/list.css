@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
-    border-bottom: 1px solid #eee8e8;
+    border-bottom: 1px solid hsl(0, 15%, 90%);
     padding: 10px;
 }
 
@@ -13,7 +13,7 @@
 
 
 .list__button {
-    color: white;
+    color: hsl(0, 0%, 100%);
     width: 30px;
     height: 30px;
     border: none;
@@ -24,30 +24,30 @@
 }
 
 .list__button--done {
-    background-color: rgb(20, 132, 20);
+    background-color: hsl(120, 74%, 30%);
     transition: 0.5s;
 }
 
 .list__button--done:hover {
-    background-color: rgb(35, 176, 35);
+    background-color: hsl(120, 67%, 40%);
 }
 
 .list__button--done:active {
-    border: 2px solid black;
+    border: 2px solid hsl(0, 0%, 0%);
 }
 
 .list__button--remove {
-    background-color: rgb(233, 56, 56);
+    background-color: hsl(0, 80%, 55%);
     transition: 0.5s;
 }
 
 .list__button--remove:hover {
-    background-color: rgb(242, 101, 101);
+    background-color: hsl(0, 84%, 70%);
 }
 
 .list__button--remove:active {
-    background-color: rgb(161, 4, 4);
-    border: 2px solid black;
+    background-color: hsl(0, 95%, 30%);
+    border: 2px solid hsl(0, 0%, 0%);
 }
 
 .list__item {

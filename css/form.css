@@ -16,7 +16,7 @@
     align-items: center;
     height: 40px;
     padding: 10px;
-    border: 2px solid rgba(232, 232, 232);
+    border: 2px solid hsl(0, 0%, 90%);
 }
 
 @media (max-width: 767px) {
@@ -26,21 +26,21 @@
 }
 
 .form__button {
-    background-color: rgba(0, 128, 128);
-    color: rgba(255, 255, 255);
+    background-color: hsl(180, 100%, 25%);
+    color: hsl(0, 0%, 100%);
     border: none;
     padding: 10px;
     height: 40px;
 }
 
 .form__button:hover {
-    background-color: #009999;
+    background-color: hsl(180, 100%, 30%);
     cursor: pointer;
     transition:0.5s;
     transform: scale(1.05);
 }
 
 .form__button:active {
-    background-color: #12acac;
-    text-decoration: underline solid #017474;
+    background-color: hsl(180, 81%, 35%);
+    text-decoration: underline solid hsl(180, 98%, 25%);
 }
