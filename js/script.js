@@ -3,7 +3,8 @@
     let hiddenDoneTask = false;
 
     const addNewTask = (newTaskContent) => {
-      tasks = [...tasks,
+      tasks = [
+        ...tasks,
         { content: newTaskContent }
       ];
       render();
@@ -101,8 +102,12 @@
 
           if (tasks.length > 0) {
             renderedButtons += `
-            <button class="button js-hideDoneTask">${hiddenDoneTask ? "Pokaż" : "Ukryj"} ukończone</button>
-            <button class="button js-allDone" ${tasks.every(({done}) => done ) ? "disabled" : ""}>Ukończ wszystkie</button>
+              <button class="button js-hideDoneTask">
+                  ${hiddenDoneTask ? "Pokaż" : "Ukryj"} ukończone
+              </button>
+              <button class="button js-allDone" ${tasks.every(({done}) => done ) ? "disabled" : ""}>
+                  Ukończ wszystkie
+              </button>
             `;
           }
 
