@@ -29,8 +29,10 @@
     background-color: hsl(180, 100%, 25%);
     color: hsl(0, 0%, 100%);
     border: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
-    height: 40px;
 }
 
 .form__button:hover {
