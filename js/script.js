@@ -11,8 +11,10 @@
     };
 
     const removeTask = (taskIndex) => {
-      const newTasks = tasks.slice(0, taskIndex).concat(tasks.slice(taskIndex + 1));
-      tasks = newTasks;
+      tasks = [
+        ...tasks.slice(0, taskIndex),
+        ...tasks.slice(taskIndex + 1),
+      ];
       render();
     };
 
